@@ -71,7 +71,7 @@ public class test {
 		document obj2=factory2.createDocument(); //creates the document using desired factory
 		obj2.open();
 	  //creating ExcelDocument
-		DocumentFactory factory3=new PdfDocumentFactory(); // client chooses desired factory
+		DocumentFactory factory3=new ExcelDocumentFactory(); // client chooses desired factory
 		document obj3=factory3.createDocument(); //creates the document using desired factory
 		obj3.open();
 
